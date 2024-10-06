@@ -12,7 +12,7 @@ class timepass
 
     function show()
     {
-
+        echo"$this->name $this->age"
     }
 }
 
