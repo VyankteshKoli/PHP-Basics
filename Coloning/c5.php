@@ -1,5 +1,5 @@
 <?php 
-class satyam 
+class vyanktesh
 {
     public $a;
     public $b;
@@ -8,7 +8,7 @@ class satyam
         echo $this->a+$this->b;
     }
 }
-$x=new satyam();
+$x=new vyanktesh();
 $x->a=10;
 $x->b=20;
 
