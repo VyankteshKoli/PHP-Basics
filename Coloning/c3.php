@@ -1,17 +1,17 @@
 <?php
-class satyam
+class vyanktesh
 {
     public $city;
     public $state;
 }
-$s=new satyam();
+$s=new vyanktesh();
 
 $y=clone $s;
 
 echo "set the value to the object<br>";
-$s->city="nashik";
-$y->state="maharashtra";
+$s->city="Jamner";
+$y->state="Maharashtra";
 
-$copy->city="pune";
+$copy->city="Mumbai";
 $copy->state="maharashtra";
 ?>
