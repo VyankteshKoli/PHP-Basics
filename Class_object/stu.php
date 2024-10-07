@@ -1,5 +1,5 @@
 <?php
-class satyam
+class Student
 {
     public $a;
     public $b;
@@ -16,15 +16,15 @@ class satyam
         return($this->tot/3.0);
     }
 }
-$s=new satyam();
+$s=new Student();
 $s->tot(89,79,90);
 $x=$s->per();
-$s->name="sam";
+$s->name="Sham";
 
-$s2=new satyam();
+$s2=new Student();
 $s2->tot(90,67,89);
 $u=$s2->per();
-$s2->name="ram";
+$s2->name="Ram";
 
 if($x>$u)
 {
