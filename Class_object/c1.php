@@ -1,5 +1,5 @@
 <?php
-class satyam
+class vyanktesh
 {
     public $a=10;
     public $b=20;
@@ -16,7 +16,7 @@ class satyam
         echo "subtraction is:".$this->a-$this->b;
     }
 }
-$s=new satyam();
-$s->abc();
-$s->sa(30,30);
+$v=new vyanktesh();
+$v->abc();
+$v->sa(30,30);
 ?>
