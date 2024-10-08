@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select User</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        fieldset {
+            border: 2px solid #007bff;
+            border-radius: 10px;
+            padding: 20px;
+            width: 300px;
+            background-color: #fff;
+        }
+
+        input[type="text"], input[type="submit"], input[type="button"] {
+            margin-bottom: 10px;
+            padding: 10px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"], input[type="button"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover, input[type="button"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <form action="select.php" method="post">
+            <label for="uid">Enter the ID:</label><br>
+            <input type="text" id="uid" name="uid"><br>
+            <input type="submit" value="Submit"><br>
+        </form>
+        <a href="home.html"><input type="button" value="Home"></a>
+    </fieldset>
+</body>
+</html>

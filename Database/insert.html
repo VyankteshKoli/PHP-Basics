@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        fieldset {
+            border: 2px solid #007bff;
+            border-radius: 10px;
+            padding: 20px;
+            width: 300px;
+            background-color: #fff;
+        }
+
+        input[type="text"], input[type="submit"] {
+            margin-bottom: 10px;
+            padding: 10px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        input[type="button"] {
+            background-color: #ddd;
+            color: #000;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        input[type="button"]:hover {
+            background-color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <form action="insert1.php" method="post">
+            Enter name: <input type="text" name="user"><br>
+            Enter city: <input type="text" name="city1"><br>
+            Enter email: <input type="text" name="email1"><br>
+            <input type="submit" value="Submit"><br>
+            <a href="home.html"><input type="button" value="Home"></a>
+        </form>
+    </fieldset>
+</body>
+</html>
